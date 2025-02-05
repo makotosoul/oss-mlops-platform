@@ -31,20 +31,20 @@ Again for more information please consult the [CSC user guide](https://docs.csc.
 ### c) Instances setup
 1. Navigate to Instances: Compute -> Instances
 2. Launch your instance:
-    2.1. Name your Instance whatever you want
-    2.2. Flavour choose standard xxlarge as the minium
-    2.3. Keep the number instance as 1
-    2.4. Instance Boot Source, choose Boot from Image 
-    2.5. Image name is "Ubuntu-24.04 (3.5GB)"
-    2.6. In the "Access & Security" tab check:
-        2.6.1. if "Key Pair" is the key pair name that you had create previously
-        2.6.2. Choose both of the security groups
-    2.7. Launch your Instances by press "Launch"
+    - 2.1. Name your Instance whatever you want
+    - 2.2. Flavour choose standard xxlarge as the minium
+    - 2.3. Keep the number instance as 1
+    - 2.4. Instance Boot Source, choose Boot from Image 
+    - 2.5. Image name is "Ubuntu-24.04 (3.5GB)"
+    - 2.6. In the "Access & Security" tab check:
+        - 2.6.1. if "Key Pair" is the key pair name that you had create previously
+        - 2.6.2. Choose both of the security groups
+    - 2.7. Launch your Instances by press "Launch"
 3. Once your instances is running (see if under Power State it write "Running"), Associate your machine with a floating IP:
-    3.1. Under "Actions" next to "Create Snapshot" press on the down arrow
-    3.2. Choose "Associate Floating IP"
-    3.4. Press on the "+" icon and choose Allocate IP, you don't need to change any settings here
-    Write your IP down somewhere but if you forgot to you can just check in your network tab under "Floating IPs"
+    - 3.1. Under "Actions" next to "Create Snapshot" press on the down arrow
+    - 3.2. Choose "Associate Floating IP"
+    - 3.4. Press on the "+" icon and choose Allocate IP, you don't need to change any settings here
+    - Write your IP down somewhere but if you forgot to you can just check in your network tab under "Floating IPs"
 
 Again for more information please consult the [CSC user guide](https://docs.csc.fi/cloud/pouta/launch-vm-from-web-gui/#setting-up-ssh-keys)
 
